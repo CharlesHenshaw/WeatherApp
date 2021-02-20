@@ -305,13 +305,25 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
 
 /***/ }),
 
+/***/ "./resources/js/WeatherApp.js":
+/*!************************************!*\
+  !*** ./resources/js/WeatherApp.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"WeatherApp\": () => (/* binding */ WeatherApp)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar WeatherApp = function WeatherApp() {\n  var _this = this;\n\n  _classCallCheck(this, WeatherApp);\n\n  this.bindEventHandlers = function () {\n    _this.body.on('click', '.js-location-search', _this.searchLocation);\n  };\n\n  this.searchLocation = function () {\n    alert('hello molly');\n  };\n\n  this.body = $('body');\n  this.bindEventHandlers();\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvV2VhdGhlckFwcC5qcz81YjM0Il0sIm5hbWVzIjpbIldlYXRoZXJBcHAiLCJiaW5kRXZlbnRIYW5kbGVycyIsImJvZHkiLCJvbiIsInNlYXJjaExvY2F0aW9uIiwiYWxlcnQiLCIkIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBTyxJQUFNQSxVQUFiLEdBQ0ksc0JBQWM7QUFBQTs7QUFBQTs7QUFBQSxPQU1kQyxpQkFOYyxHQU1NLFlBQU07QUFDdEIsU0FBSSxDQUFDQyxJQUFMLENBQVVDLEVBQVYsQ0FBYSxPQUFiLEVBQXNCLHFCQUF0QixFQUE2QyxLQUFJLENBQUNDLGNBQWxEO0FBQ0gsR0FSYTs7QUFBQSxPQVVkQSxjQVZjLEdBVUcsWUFBTTtBQUNuQkMsU0FBSyxDQUFDLGFBQUQsQ0FBTDtBQUNILEdBWmE7O0FBQ1YsT0FBS0gsSUFBTCxHQUFZSSxDQUFDLENBQUMsTUFBRCxDQUFiO0FBQ0EsT0FBS0wsaUJBQUw7QUFDSCxDQUpMIiwiZmlsZSI6Ii4vcmVzb3VyY2VzL2pzL1dlYXRoZXJBcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY2xhc3MgV2VhdGhlckFwcCB7XG4gICAgY29uc3RydWN0b3IoKSB7XG4gICAgICAgIHRoaXMuYm9keSA9ICQoJ2JvZHknKTtcbiAgICAgICAgdGhpcy5iaW5kRXZlbnRIYW5kbGVycygpO1xuICAgIH1cblxuXG4gICAgYmluZEV2ZW50SGFuZGxlcnMgPSAoKSA9PiB7XG4gICAgICAgIHRoaXMuYm9keS5vbignY2xpY2snLCAnLmpzLWxvY2F0aW9uLXNlYXJjaCcsIHRoaXMuc2VhcmNoTG9jYXRpb24pO1xuICAgIH1cblxuICAgIHNlYXJjaExvY2F0aW9uID0gKCkgPT4ge1xuICAgICAgICBhbGVydCgnaGVsbG8gbW9sbHknKTtcbiAgICB9XG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/WeatherApp.js\n");
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsicmVxdWlyZSJdLCJtYXBwaW5ncyI6IkFBQUFBLG1CQUFPLENBQUMsZ0RBQUQsQ0FBUCIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJyZXF1aXJlKCcuL2Jvb3RzdHJhcCcpO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _WeatherApp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./WeatherApp */ \"./resources/js/WeatherApp.js\");\n\n\n__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");\n\nnew _WeatherApp__WEBPACK_IMPORTED_MODULE_0__.WeatherApp();//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzPzZkNDAiXSwibmFtZXMiOlsicmVxdWlyZSIsIldlYXRoZXJBcHAiXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBRUFBLG1CQUFPLENBQUMsZ0RBQUQsQ0FBUDs7QUFHQSxJQUFJQyxtREFBSiIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1dlYXRoZXJBcHB9IGZyb20gXCIuL1dlYXRoZXJBcHBcIjtcblxucmVxdWlyZSgnLi9ib290c3RyYXAnKTtcblxuXG5uZXcgV2VhdGhlckFwcCgpO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
 
 /***/ }),
 
